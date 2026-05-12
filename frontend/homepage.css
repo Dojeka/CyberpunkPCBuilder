@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Tomorrow:wght@400;700&family=Advent+Pro:wght@400;700&family=Oxanium:wght@400;700&family=VT323&display=swap');
+
+body {
+    background-color: #2C3539;
+    font-family: 'Advent Pro', 'Oxanim', sans-serif;
+}
+
+.navbar img {
+    text-align: left;
+    width: 15%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: auto;
+    gap: 100px;
+}
+
+.navbar li a {
+    text-decoration:overline;
+    color: #FFFF00;
+
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: var(--primary-dark);
+}
+
+.wrapper-builder {
+    background-image: url('imgs/homeBuilderBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-size: xx-large;
+    color: #FFFF00;
+}
+
+button {
+    background-color: #FFFF00;
+    font-size: xx-large;
+    border: 1px solid #39d5ff;
+    padding: 14px 50px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    outline: none;
+
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 70%,
+        90% 100%,
+        0 100%,
+        0 55%,
+        8% 55%,
+        8% 45%,
+        0 45%
+    );
+
+    transition: 0.2s ease;
+}
+
+button:hover{
+    background-color: #B026FF;
+}
+
+.wrapper-components {
+    background-image: url('imgs/homeComponentsBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-size: xx-large;
+    color: #FFFF00;
+
+}
+
+.wrapper-compatibility {
+    background-image: url('imgs/homeCompatibilityBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-size: xx-large;
+    color: #2C3539;
+
+}
+
+.wrapper-benchmark {
+    background-image: url('imgs/homeBenchmarkback.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-size: xx-large;
+    color: #FFFF00;
+
+}
+
+.wrapper-builds {
+    background-image: url('imgs/homeBuildsBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-size: xx-large;
+    color: #FFFF00;
+
+}
